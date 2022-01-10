@@ -22,7 +22,6 @@ public class ThreadChat extends Thread {
             BufferedReader br = new BufferedReader(new InputStreamReader(is)) ;
             PrintWriter pr = new PrintWriter(os) ;
             pr.println("Hello " + nbrClient);
-            
         }catch(Exception e) {
             e.printStackTrace();
         }
